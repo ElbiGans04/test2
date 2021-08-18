@@ -1,0 +1,17 @@
+{
+  "name": "testing-mocha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rhafael",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "mocha": "^9.0.3",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  }
+}
